@@ -25,4 +25,4 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           wget https://raw.githubusercontent.com/tmg-pub/forgepush/main/forgepush.py
-          python3 forgepush.py --curse_apitoken ${{secrets.FORGETOKEN}} --publish_curseforge --github_token ${{secrets.GITHUB_TOKEN}} --create_github_release --addonversion ${{github.ref_name}}
+          python3 forgepush.py --yesokay --curse_apitoken ${{secrets.FORGETOKEN}} --publish_curseforge --github_token ${{secrets.GITHUB_TOKEN}} --create_github_release --addonversion ${{github.ref_name}}
