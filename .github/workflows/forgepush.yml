@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 10
 
-####### special edit #
+####### special edit ##
       # Runs a single command using the runners shell
       - name: Publish
         run: |
