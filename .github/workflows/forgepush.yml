@@ -19,6 +19,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 10
+
 ####### special edit #
       # Runs a single command using the runners shell
       - name: Publish
