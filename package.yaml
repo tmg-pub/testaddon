@@ -1,5 +1,4 @@
 curse-project-id: 263058
-github: https://github.com/tmg-pub/testaddon
 name: mysweettestaddon
 export:
   TestAddon: src
