@@ -1,2 +1,8 @@
-hi :)
---@include code.txt@
+#------------------------------------------------------------------------------
+## Interface: @@toc_version_retail@@
+## Title: TestAddon
+## Author: Tammya-MoonGuard
+## Version: 1.1
+#------------------------------------------------------------------------------
+
+TestAddon.lua
