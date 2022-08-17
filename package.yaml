@@ -1,0 +1,4 @@
+github: https://github.com/tmg-pub/testaddon
+name: mysweettestaddon
+export:
+  TestAddon: src
