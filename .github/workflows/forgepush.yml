@@ -24,6 +24,8 @@ jobs:
       - name: Publish
         run: |
           cd $GITHUB_WORKSPACE
+          echo ${{github.ref_name}}
           refname=${{github.ref_name}} | sed 's/release-//'
+          echo $refname
           wget https://raw.githubusercontent.com/tmg-pub/forgepush/main/forgepush.py
           python3 forgepush.py --curse_apitoken ${{secrets.FORGETOKEN}} --publish_curseforge --github_token ${{secrets.GITHUB_TOKEN}} --create_github_release --addonversion $refname
